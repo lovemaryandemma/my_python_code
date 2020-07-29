@@ -46,7 +46,7 @@ def my_parser(data):
 
     # 联系人状态
     if data['type'] == 7:
-        pass
+        print("联系人状态")
 
 wcp = WeChatSpy(parser=my_parser)
 wcp.run()
